@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606568914185",
+    "firebase_url": "https://movie360-7d057.firebaseio.com",
+    "project_id": "movie360-7d057",
+    "storage_bucket": "movie360-7d057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606568914185:android:4bef9d08c2f86f519447d8",
+        "android_client_info": {
+          "package_name": "com.ashtray.movie360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606568914185-37uukcakoftpog4q1dmf1aqtmjfb3ri6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashtray.movie360",
+            "certificate_hash": "82a435095a07e3e0e73cf8e07bcf8d96cf497a16"
+          }
+        },
+        {
+          "client_id": "606568914185-smp6pb4r13jpcsur2ggahj3avu7hgk5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSj8S6h_qjbuaXErwFW9r3GM68Q_LhXRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606568914185-smp6pb4r13jpcsur2ggahj3avu7hgk5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
