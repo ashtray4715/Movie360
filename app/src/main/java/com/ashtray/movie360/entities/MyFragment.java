@@ -53,6 +53,6 @@ public abstract class MyFragment extends Fragment {
 
 // public empty constructor
 // override onCreateView (initialize layout and widgets)
-// override onActivityCreated (change activity title + activity menus)
+// override onActivityCreated (change activity title + enable activity back button)
 // override onCreate (if your project has menu in any fragment)
 // override onCreateOptionsMenu (if your project has menu in any fragment)
