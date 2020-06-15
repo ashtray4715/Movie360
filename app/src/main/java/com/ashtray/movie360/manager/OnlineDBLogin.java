@@ -3,6 +3,7 @@ package com.ashtray.movie360.manager;
 import android.app.Activity;
 
 import com.ashtray.movie360.MyApplication;
+import com.ashtray.movie360.MyApplicationUtils;
 import com.ashtray.movie360.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
@@ -65,7 +66,7 @@ public class OnlineDBLogin {
                 }
 
                 Object credentialData = document.getData().get(fieldName);
-                List<String> credentialList = objectToStringList(credentialData);
+                List<String> credentialList = MyApplicationUtils.objectToStringList(credentialData);
                 for (String current: credentialList) {
 
                     String[] infos = current.split("#");
@@ -94,11 +95,6 @@ public class OnlineDBLogin {
             if(loginCallBack != null)
                 loginCallBack.onLoginFailed("Wrong ref.");
         });
-    }
-
-    @SuppressWarnings("unchecked")
-    private static <T extends List<?>> T objectToStringList(Object obj) {
-        return (T) obj;
     }
 
 }

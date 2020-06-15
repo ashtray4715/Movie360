@@ -7,6 +7,11 @@
     <string name="admin_login_document">AdminLoginDocument</string>
     <string name="admin_login_field">AdminLoginField</string>
 
+    <string name="movie_review_collection">MovieReviewCollection</string>
+
+    <string name="mr_field_movie_name">movie_name</string>
+    <string name="mr_field_release_year">release_year</string>
+    <string name="mr_field_image_string">image_string</string>
 
     <!-- Fragment Admin Login -->
     <string name="enter_username">Enter username</string>
